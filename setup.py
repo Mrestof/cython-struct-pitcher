@@ -3,7 +3,7 @@ from distutils.extension import Extension
 from Cython.Build import cythonize
 
 
-extensions = [Extension('client_compiled', ['client.pyx', 'client.c'])]
+extensions = [Extension('client_compiled', ['client.pyx', 'student.c'])]
 
 setup(
     ext_modules=cythonize(
