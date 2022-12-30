@@ -1,3 +1,5 @@
-import client_compiled
+from client_compiled import get_default_student_struct_as_bytes
 
-client_compiled.main()
+
+struct = get_default_student_struct_as_bytes()
+print(struct)

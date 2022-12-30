@@ -1,6 +1,7 @@
 __pycache__/
 build/
 examples/
-log*
-*.ipynb
 client.c
+log*
+*.so
+*.ipynb
