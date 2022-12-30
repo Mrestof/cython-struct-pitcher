@@ -6,7 +6,7 @@ cdef extern from 'student.h':
     Student get_default_student()
 
 
-cpdef get_default_student_struct_as_bytes():
+cpdef bytes get_default_student_struct_as_bytes():
     cdef unsigned char *student_ptr
     cdef Student student_struct = get_default_student()
     student_ptr = <unsigned char *> &student_struct
