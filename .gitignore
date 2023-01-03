@@ -2,6 +2,7 @@ __pycache__/
 build/
 examples/
 client.c
+server
 log*
 *.so
 *.ipynb
