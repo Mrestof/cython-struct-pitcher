@@ -1,11 +1,11 @@
 #ifndef STUDENT_H_
 #define STUDENT_H_
 
-struct Student {
+typedef struct {
   char name[20];
   int age;
   int group;
-};
-struct Student get_default_student(void);
+} Student;
+int init_default_student(Student *student);
 
 #endif
