@@ -12,3 +12,5 @@ $venv_python setup.py build_ext --inplace &>> log-client
 $venv_python client.py &>> log-client
 
 rm -f server client_compiled*.so
+
+#TODO: rewrite automatic run somehow

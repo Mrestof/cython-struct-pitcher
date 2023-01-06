@@ -6,6 +6,6 @@ typedef struct {
   int age;
   int group;
 } Student;
-int init_default_student(Student *student);
+int init_default_student(Student *student, int group_in);
 
 #endif
